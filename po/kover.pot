@@ -1,0 +1,524 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2001-10-09 00:41+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: imagedlgdata.cpp:16
+msgid "First Image"
+msgstr ""
+
+#: imagedlgdata.cpp:31 imagedlgdata.cpp:72 imagedlgdata.cpp:109
+msgid "Front, left side"
+msgstr ""
+
+#: imagedlgdata.cpp:32 imagedlgdata.cpp:73 imagedlgdata.cpp:110
+msgid "Front, right side"
+msgstr ""
+
+#: imagedlgdata.cpp:33 imagedlgdata.cpp:74 imagedlgdata.cpp:111
+msgid "Front, both sides"
+msgstr ""
+
+#: imagedlgdata.cpp:34 imagedlgdata.cpp:75 imagedlgdata.cpp:112
+msgid "Back, without sides"
+msgstr ""
+
+#: imagedlgdata.cpp:35 imagedlgdata.cpp:76 imagedlgdata.cpp:113
+msgid "Back, with sides"
+msgstr ""
+
+#: imagedlgdata.cpp:39 imagedlgdata.cpp:80 imagedlgdata.cpp:117
+msgid "Centered"
+msgstr ""
+
+#: imagedlgdata.cpp:40 imagedlgdata.cpp:81 imagedlgdata.cpp:118
+msgid "Tiled"
+msgstr ""
+
+#: imagedlgdata.cpp:41 imagedlgdata.cpp:82 imagedlgdata.cpp:119
+msgid "Stretched"
+msgstr ""
+
+#: imagedlgdata.cpp:45 imagedlgdata.cpp:68 imagedlgdata.cpp:105
+msgid "Target"
+msgstr ""
+
+#: imagedlgdata.cpp:53
+msgid "Second Image"
+msgstr ""
+
+#: imagedlgdata.cpp:90
+msgid "Third Image"
+msgstr ""
+
+#: imagedlg.cpp:29
+msgid "Image Embedding"
+msgstr ""
+
+#: cddb_fill.cpp:150
+msgid "Internal error: Filedescriptor is not -1, already opened?"
+msgstr ""
+
+#: cddb_fill.cpp:160
+msgid "You don´t have permission to read from "
+msgstr ""
+
+#: cddb_fill.cpp:164
+msgid "There´s no medium in "
+msgstr ""
+
+#: cddb_fill.cpp:169
+msgid " is busy!"
+msgstr ""
+
+#: cddb_fill.cpp:172
+msgid "Unknown error while opening "
+msgstr ""
+
+#: cddb_fill.cpp:185
+msgid "Oops. No information about disc. Will keep trying..."
+msgstr ""
+
+#: cddb_fill.cpp:188
+msgid "There´s no audio cd in "
+msgstr ""
+
+#: cddb_fill.cpp:189
+msgid "! (ignoring)"
+msgstr ""
+
+#: cddb_fill.cpp:209
+msgid "Internal error: Filedescriptor is -1, not opened?"
+msgstr ""
+
+#: cddb_fill.cpp:213
+msgid "Reading table of contents..."
+msgstr ""
+
+#: cddb_fill.cpp:216
+msgid "Error while reading table of contents!"
+msgstr ""
+
+#: cddb_fill.cpp:234
+msgid "Error while reading TOC entry!"
+msgstr ""
+
+#: cddb_fill.cpp:252
+msgid "Table of contents successfully read"
+msgstr ""
+
+#: cddb_fill.cpp:303 cddb_fill.cpp:306
+msgid "Connecting to "
+msgstr ""
+
+#: cddb_fill.cpp:329
+msgid "Connecting to CDDB server..."
+msgstr ""
+
+#: cddb_fill.cpp:417
+msgid "Using local values for disc"
+msgstr ""
+
+#: cddb_fill.cpp:436
+msgid "Querying database..."
+msgstr ""
+
+#: cddb_fill.cpp:494
+msgid "Initializing authorization"
+msgstr ""
+
+#: cddb_fill.cpp:500
+msgid "Operation aborted."
+msgstr ""
+
+#: cddb_fill.cpp:581
+msgid "Found inexact matches, list follows (until terminating marker)"
+msgstr ""
+
+#: cddb_fill.cpp:640
+msgid "No match found."
+msgstr ""
+
+#: cddb_fill.cpp:643 cddb_fill.cpp:750
+msgid "Database entry is corrupt."
+msgstr ""
+
+#: cddb_fill.cpp:646 cddb_fill.cpp:753
+msgid "No handshake."
+msgstr ""
+
+#: cddb_fill.cpp:675
+msgid "Downloading CD info..."
+msgstr ""
+
+#: cddb_fill.cpp:741
+msgid "OK, CDDB database entry follows."
+msgstr ""
+
+#: cddb_fill.cpp:744
+msgid "Specified CDDB entry not found."
+msgstr ""
+
+#: cddb_fill.cpp:747
+msgid "Server error."
+msgstr ""
+
+#: cddb_fill.cpp:756
+msgid "ERROR: This should not happen."
+msgstr ""
+
+#: cddb_fill.cpp:911
+msgid "Trouble creating cddb greeting... Giving up..."
+msgstr ""
+
+#: KoverTop.cpp:52 KoverTop.cpp:144 KoverTop.cpp:221
+msgid "[New Document]"
+msgstr ""
+
+#: KoverTop.cpp:68
+msgid "&Actual size"
+msgstr ""
+
+#: KoverTop.cpp:69
+msgid "&CDDB lookup"
+msgstr ""
+
+#: KoverTop.cpp:71
+msgid "&Image Embedding..."
+msgstr ""
+
+#: KoverTop.cpp:72
+msgid "Title Font..."
+msgstr ""
+
+#: KoverTop.cpp:73
+msgid "Title Fontcolor..."
+msgstr ""
+
+#: KoverTop.cpp:74
+msgid "Contents Font..."
+msgstr ""
+
+#: KoverTop.cpp:75
+msgid "Contents Fontcolor..."
+msgstr ""
+
+#: KoverTop.cpp:76
+msgid "Background Color..."
+msgstr ""
+
+#: KoverTop.cpp:77
+msgid "Eject CD"
+msgstr ""
+
+#: KoverTop.cpp:87
+msgid "CD Number"
+msgstr ""
+
+#: KoverTop.cpp:142
+msgid "Data changed"
+msgstr ""
+
+#: KoverTop.cpp:254
+msgid "File loaded"
+msgstr ""
+
+#: KoverTop.cpp:257 KoverTop.cpp:286 KoverTop.cpp:302
+msgid "Error while opening/reading file!"
+msgstr ""
+
+#: KoverTop.cpp:263
+msgid ""
+"Data changed since last saving!\n"
+"Do you want to save the changes?"
+msgstr ""
+
+#: KoverTop.cpp:283 KoverTop.cpp:299
+msgid "File saved"
+msgstr ""
+
+#: KoverTop.cpp:347
+msgid "Initiating CDDB lookup!"
+msgstr ""
+
+#: KoverTop.cpp:365
+msgid "config me"
+msgstr ""
+
+#: CDView.cpp:77
+msgid "Click to close"
+msgstr ""
+
+#: PreferencesDialog.cpp:48
+msgid "CDDB"
+msgstr ""
+
+#: PreferencesDialog.cpp:48
+msgid "CDDB options"
+msgstr ""
+
+#: PreferencesDialog.cpp:52
+msgid "&CDDB server"
+msgstr ""
+
+#: PreferencesDialog.cpp:62
+msgid "CDDB server:"
+msgstr ""
+
+#: PreferencesDialog.cpp:69
+msgid "CGI path:"
+msgstr ""
+
+#: PreferencesDialog.cpp:76
+msgid "&Proxy configuration"
+msgstr ""
+
+#: PreferencesDialog.cpp:83
+msgid "Use proxy for CDDB lookups"
+msgstr ""
+
+#: PreferencesDialog.cpp:87
+msgid "Use 'http_proxy' environment variable"
+msgstr ""
+
+#: PreferencesDialog.cpp:90
+msgid "Proxy server:"
+msgstr ""
+
+#: PreferencesDialog.cpp:96
+msgid "Proxy server port:"
+msgstr ""
+
+#: PreferencesDialog.cpp:109
+msgid "CDROM"
+msgstr ""
+
+#: PreferencesDialog.cpp:109
+msgid "CDROM options"
+msgstr ""
+
+#: PreferencesDialog.cpp:113
+msgid "&CDROM"
+msgstr ""
+
+#: PreferencesDialog.cpp:122
+msgid "CDROM device:"
+msgstr ""
+
+#: PreferencesDialog.cpp:128
+msgid "Eject CD on exit"
+msgstr ""
+
+#: PreferencesDialog.cpp:312
+msgid "CDDB files"
+msgstr ""
+
+#: PreferencesDialog.cpp:312
+msgid "Local CDDB files"
+msgstr ""
+
+#: PreferencesDialog.cpp:316
+msgid "&Local CDDB files"
+msgstr ""
+
+#: PreferencesDialog.cpp:325
+msgid "Read CDDB data from file if available"
+msgstr ""
+
+#: PreferencesDialog.cpp:329
+msgid "Write CDDB data to file"
+msgstr ""
+
+#: PreferencesDialog.cpp:334
+msgid "CDDB path:"
+msgstr ""
+
+#: PreferencesDialog.cpp:390
+msgid "Various properties"
+msgstr ""
+
+#: PreferencesDialog.cpp:394
+msgid "&Stuff"
+msgstr ""
+
+#: PreferencesDialog.cpp:403
+msgid "Mouse click on kover preview triggers actual size."
+msgstr ""
+
+#: PreferencesDialog.cpp:407
+msgid "Display track duration after a CDDB request."
+msgstr ""
+
+#: PreferencesDialog.cpp:411
+msgid ""
+"Print inlet on left side of booklet.\n"
+"(slim case option)"
+msgstr ""
+
+#: inexact_dialog.cc:52
+msgid "Choose wisely!"
+msgstr ""
+
+#: proxy_auth.cc:49
+msgid "Enter username and password for proxy at "
+msgstr ""
+
+#: proxy_auth.cc:63
+msgid "User Name:"
+msgstr ""
+
+#: cddb_fill.cc:139 cddb_fill.cc:187
+msgid "No http_proxy environment variable found... Giving up..."
+msgstr ""
+
+#: cddb_fill.cc:142 cddb_fill.cc:190
+msgid "Don't understand http_proxy environment variable... Giving up..."
+msgstr ""
+
+#: kovertop.cc:159
+msgid "Spine Text Font..."
+msgstr ""
+
+#: kovertop.cc:163
+msgid "CDDB without CD"
+msgstr ""
+
+#: kovertop.cc:204
+msgid "All this options are not global"
+msgstr ""
+
+#: kovertop.cc:215
+msgid "No title on booklet"
+msgstr ""
+
+#: kovertop.cc:221
+msgid "Separate Spine Text"
+msgstr ""
+
+#: kovertop.cc:404
+msgid ""
+"*.kover|Kover files\n"
+"*|All files\n"
+"*.k3b|k3b files"
+msgstr ""
+
+#: kovertop.cc:500
+msgid ""
+"*.kover|Kover files\n"
+"*|All files"
+msgstr ""
+
+#: PreferencesDialog.cc:499 PreferencesDialog.cc:503
+msgid "Cover"
+msgstr ""
+
+#: PreferencesDialog.cc:516
+msgid "Display track duration after a CDDB request"
+msgstr ""
+
+#: PreferencesDialog.cc:522
+msgid "Print inlet and booklet"
+msgstr ""
+
+#: PreferencesDialog.cc:531
+msgid ""
+"Don't print booklet.\n"
+"(inlet only option)"
+msgstr ""
+
+#: PreferencesDialog.cc:535
+msgid "Print all on one page"
+msgstr ""
+
+#: PreferencesDialog.cc:613
+msgid "Standard Fonts"
+msgstr ""
+
+#: PreferencesDialog.cc:617
+msgid "&Standard Fonts"
+msgstr ""
+
+#: PreferencesDialog.cc:627
+msgid "Changes to any of these fonts are global.\n"
+msgstr ""
+
+#: PreferencesDialog.cc:628
+msgid "This means, that changes will only be available\n"
+msgstr ""
+
+#: PreferencesDialog.cc:629
+msgid "for the next new cover.\n"
+msgstr ""
+
+#: PreferencesDialog.cc:630
+msgid "Except that the current cover is empty.\n"
+msgstr ""
+
+#: PreferencesDialog.cc:631
+msgid "Then changes are applied to the current cover."
+msgstr ""
+
+#: PreferencesDialog.cc:635
+msgid "Content Font: "
+msgstr ""
+
+#: PreferencesDialog.cc:645
+msgid "Title Font: "
+msgstr ""
+
+#: PreferencesDialog.cc:654
+msgid "Spine Text Font: "
+msgstr ""
+
+#: PreferencesDialog.cc:756
+msgid "Save window position"
+msgstr ""
+
+#: PreferencesDialog.cc:760
+msgid "Disable unnecessary animation"
+msgstr ""
+
+#: PreferencesDialog.cc:765
+msgid "Mouse click on kover preview triggers actual size"
+msgstr ""
+
+#: PreferencesDialog.cc:815
+msgid ""
+"Changes to the fonts will not be applied to the current cover, but for the "
+"next new cover."
+msgstr ""
+
+#: inexact_dialog.cc:80 proxy_auth.cc:76
+msgid "Ok"
+msgstr ""
+
+#: proxy_auth.cc:69
+msgid "Password:"
+msgstr ""
+
+#: without_cd.cc:54
+msgid "Select a category:"
+msgstr ""
+
+#: without_cd.cc:72
+msgid "Enter CDDB Id:"
+msgstr ""
+
+#: without_cd.cc:79
+msgid "Search"
+msgstr ""
+
+msgid "&Kover"
+msgstr ""
+

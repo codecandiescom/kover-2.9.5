@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+MimeType=application/x-kover
+Exec=kover  
+Icon=kover
+Comment=CD Kover Printer
+Terminal=0
+Name=Kover

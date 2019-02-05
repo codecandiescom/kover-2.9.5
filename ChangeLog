@@ -1,0 +1,343 @@
+$Id: ChangeLog,v 1.40 2004/04/29 06:57:09 adrian Exp $
+
+2004-04-25 Adrian Reber <adrian@lisas.de>
+        * copied new files from kapptemplate to admin
+        * many kapptemplate related changes
+        * released as 2.9.5
+          "now-with-release-names" release or
+          "yes-i-am-still-alive" release
+
+2004-04-20 Markus Brueffer <brueffer@phoenix-systems.de>
+        * kover FreeBSD patches
+
+2004-04-20 Laurent Montel <lmontel@mandrakesoft.com>
+        * Patch to add config shortcut.
+        * Fixe a mem leak.
+
+2003-03-14 Adrian <adrian@lisas.de>
+        * *.png: somehow all the images were corrupted and are
+          now replaced with non-corrupted versions
+        * version updated to 2.9.3
+
+2003-03-10 Adrian <adrian@lisas.de>
+        * es.po: spanish translation added from
+                 Quique <quique@sindominio.net>
+        * kostore: kostore added to be able to open the
+          k3b-files as they (k3b) have switched to a zipped
+          format to store their XML data
+        * koverfile.cc: included the import for k3b-files
+          with help of kostore
+        * version bumped to 2.9.2
+
+2003-02-19 Adrian <adrian@lisas.de>
+        * version updated to 2.9.1
+        * release
+
+2003-02-09 Adrian <adrian@lisas.de>
+        * cddb_fill.cc: local cddb files are not longer loaded/written
+          to the cddb directory but to the cddb-directory/category
+          directory. This way it should be possible to use the cddb
+          directory from kscd.
+        * kover.pot: translation updated
+        * de.po: german translation updated
+        * pl.po: polish translation updated by
+                 Michal Rudolf <mrudolf@mercury.ci.uw.edu.pl>
+        * nb.po: norwegian translation updated by
+                 Håvard Dahle <havardda@orakel.ntnu.no>
+        * it.po: italian translation updated by
+                 Marco Ciampa <ciampix@libero.it>
+        * fr.po: french translation updated by
+                 jean-pierre VERRUE <jean-pierre.verrue@laposte.net>
+        * all files: code review, other stuff
+
+2002-10-13 Adrian <adrian@lisas.de>
+        * kovertop.cc: little GUI redesign
+        * When there is single front side (booklet and inlet of the same
+          page), picture set for both front sides is ignored (I think 
+          it should be applied to single side available);
+			 reported by Michal Rudolf <mrudolf@mercury.ci.uw.edu.pl>
+          and fixed in cdview.cc
+        * PreferencesDialog.cc: introduced some text to explain
+          how and when the font changes are applied
+        * As "Inlet Title" and "Spine Text" is the same, the use of the term 
+          is now project wide "Spine Text"
+        * The "More >>" button is now named "Options" to be better
+          translatable and to make more sense
+        * kovertop.cc: Added accelerator for Actual Size and Preview
+          Ctrl++ Ctrl+-
+		  
+2002-09-18 Adrian <adrian@lisas.de>
+        * config.cc: now writing the inlet_only option
+		    to the configuration file (seems like nobody is
+          using this option)
+        * cdview.cc: bugfix to position the text correctly if
+          the inlet_only option is selected
+
+2002-09-17 Adrian <adrian@lisas.de>
+        * koverfile.cc: now reading .k3b files of type
+          k3b_data_project and k3b_audio_project
+        * *_dialog.cc: quit button works now how it is supposed to
+
+2002-09-13 Adrian <adrian@lisas.de>
+        * seems like we are entering a time of heavy development activity???
+        * net.cc: introduced the readline method
+          this should remove the bug reported 
+			 by Jan Keirse <jan.keirse@pandora.be>:
+          kover:cddb_fill.cc:702: this should not happen
+          kover:cddb_fill.cc:810: this should not happen
+        * cddb_fill.cc: using now readline() method instead of trying
+          to read the http response by itself
+        * koverfile.cc: cddb id is now also saved to the .kover files
+        * koverfile.cc: first attempts to read .k3b files. 
+          It should be to hard as these files are also xml based.
+        * bumped version to 2.8.8
+        * no release yet
+
+2002-09-11 Adrian <adrian@lisas.de>
+        * PreferencesDialog.cc: option to disable unnecessary 
+          animations
+        * PreferencesDialog.cc: divided one page (misc) into 
+          two pages (misc and cover)
+        * config.cc: global fonts are now saved in a different format
+          this should work better than using XLFD (X Logical Font Description)
+        * koverfile.cc: prepared to switch to a different font save
+          format if necessary in the future
+        * kovertop.cc: on the "More >>" page is a option to change
+          the spine text independently from the title
+        * finally the http_proxy environment variable is honored
+          (net.cc, cddb.cc, PrefrencesDialog.cc)
+        * due to changes to the configuration routines , there can be issues
+          on first startup. kover will use its builtin values.
+        * bumped version to 2.8.7
+        * released as 2.8.7
+
+2002-07-24 Adrian <adrian@lisas.de>
+        * mainly bugfixes
+        * renamed no.po to nb.po (Øyvind Sæther)
+        * koverfile.cc: now using utf8() to save the files;
+          this sould fix the problem with utf8 characters...
+          (Øyvind Sæther)
+        * koverfile.cc: loading of old style .kover files
+          now without errors (Claudio Ferrari)
+        * koverfile.cc: empty lines now also saved (Claudio Ferrari)
+        * koverfile.cc: removed last newline after file loading
+        * server_dialog.cc: new dialog to choose from the available
+          cddb servers
+        * server.cc: entity for the servers
+        * PreferencesDialog.cc: button to select one of the 
+          available cddb server
+        * whenever you read cddb in this ChangeLog, then freedb is
+          meant
+        * now using anjuta for coding
+        * bumped version to 2.8.6
+        * released as 2.8.6
+        * tomorrow I'm going on holiday; I'm going camping 
+          in Croatia. Yes! Finally! Holiday! Woohoo!
+        * I'm now using debian. No more redhat. And apt-get
+          is really great. My APT has even Super Cow Powers :)
+
+2002-05-21 Adrian <adrian@lisas.de>
+        * pl.po: polish translation updated by:
+          Micha Rudolf <mrudolf@mercury.ci.uw.edu.pl>
+        * admin: new kde3 admin directory
+          this should fix the issue with having only the libqt-mt
+          libs.
+        * kover.1 cddb-id.1: finally manpages. thanks to:
+          Rene Engelhard <mail@rene-engelhard.de>
+        * kover.spec.in: updated to include the manpages
+        * main.cc: connection to DCOP server now part of the code
+
+2002-04-29 Adrian <adrian@lisas.de>
+        * PreferencesDialog.cc: added small preview pictures
+          for the different cover layouts
+        * PreferencesDialog.cc: added page for global font
+          properties
+        * PreferencesDialog.cc: added button to select one
+          of the freedb mirror sites 
+        * net.cc: general network code
+        * cddb.cc: general cddb code
+        * sites.cc: this retrieves all available cddb sites
+          as advertised by the freedb servers using the
+          cddb command: "sites"
+        * proxy_auth.cc: removed \n from the password
+          before base64 encoding
+        * cddb_fill.cc: removed some of the global cddb and network
+          methods. they are now in cddb.cc and net.cc
+        * cddb_fill.cc: also small bugfixes
+        * kovertop.cc: added a unnecessary animation to display
+          a second page with current cover related options
+        * I love my ChangeLog
+
+2002-04-22 Adrian <adrian@lisas.de>
+        * released as 2.8.3
+          the big jump in the version number is a hint
+          that this version is to be used with kde3
+        * this is just a development version
+          lots of things are started but not finished
+          don't expect everything to work yet
+          this is for the people waiting to use kover with kde3
+        * merged the qt3_version cvs branch back into the
+          the HEAD branch. branches are evil!
+
+2002-04-07 Adrian <adrian@lisas.de>
+        * kover_file.cc: changed .kover file format to use XML.
+        * renamed some files from .cpp to .cc, so --enable-final
+          can optimize better. More renaming will follow
+        * created the qt3_version branch in the cvs
+        * it.po: italian translation by
+          Marco Ciampa <ciampix@libero.it>
+        * pl.po: polish translation by:
+          Micha Rudolf <mrudolf@mercury.ci.uw.edu.pl>
+
+2002-03-07 Alexander <alex@lisas.de>
+        * gcc3 and kde3 fixes
+
+2001-11-19  Michael  <konqueror@gmx.de>
+        * bufixes for the network transparency stuff
+        * Released as 0.8.3
+
+2001-11-18  Adrian  <adrian@lisas.de>
+        * KoverTop.cpp cddb_fill.cpp: included option to make
+          cddb query without the CD
+        * without_cd.cc: the without CD cddb query dialog.
+        * KoverTop.cpp: OpenRecent menu available
+        * categories.cc: a container for the cddb categories
+        * CDView.cpp: switched from QPrinter to KPrinter
+          maybe this helps some people who weren't able to print
+        * Released as 0.8.2
+
+2001-11-17  Michael  <konqueror@gmx.de>
+        * KoverTop.cpp: network transparency. now it is possible
+          to open and save file via ftp
+        * x-kover.desktop: application/x-kover mimetype
+        * main.cpp: open file via command line
+        * cdrom_cddb.h: fixed typo. --enable-final should work now
+
+2001-10-28  Adrian  <adrian@lisas.de>
+        * some files: patch from Håvard Dahle <havardda-i18n@orakel.ntnu.no>
+          included for inlet only option.
+        * PreferencesDialog.cpp: inlet only option to radio buttons
+        * KoverTop.cpp: new font selection dialog for inlet
+          inlet title font
+        * koverfile.cpp CDView.cpp: changes to handle inlet title font
+        * no.po: norwegian translation by
+          Håvard Dahle <havardda-i18n@orakel.ntnu.no>
+        * released as 0.8.1
+
+2001-10-12  Adrian  <adrian@lisas.de>
+        
+        * all files: prepared for translation
+        * fr.po: french translation by
+          Jean-Pierre VERRUE <jean-pierre.verrue@laposte.net>
+        * de.po: german translation all by myself
+        * more code cleanups
+        * cddb-id.cc: new file. using the new cdrom_cddb class
+          to calculate the cddb-id and prints it to stdout.
+          cddb id calculation will be removed from cddb_fill.cpp
+        * cddb_211_item.cc: storage for the inexact matches
+        * inexact_dialog.cc: dialog to display the the inexact matches
+        * kover.spec.in: used to create a rpm specfile via configure
+          rpm -ta kover-x.x.tar.gz gives you a nice rpm
+        * CDView.cpp:48+341: removed compiler warnings
+
+2001-10-01  Adrian  <adrian@lisas.de>
+
+        * cddb_fill.cpp: proxy authentification implemented
+        * proxy_auth.cc: the new proxy authentification dialog
+          password is base64 encoded; this is "Basic Proxy-authorization"
+          base64 encoding stuff is from unknown. I found two files on the
+          web (base64encode.c and base64decode.c) but no copyright or author
+          information. However not much is left from the original source.
+        * PreferencesDialog.cpp: typo
+
+2001-06-14  Adrian  <adrian@lisas.de>
+
+        * CDView.cpp: booklet content on left side of inlet
+          for slim case CDs 
+        * PreferencesDialog.cpp: added the slim case option
+        * code cleanups
+        * config.cc: new class for configuration. This used 
+          to be in KoverTop.cpp
+        * KoverTop.cpp: fixed bug that [modified] disappears
+          if you hit the save button
+        * main.cpp: catching SIGTERM and SIGINT and saving
+          configuration before exiting
+        * cdrom.cc: introducing the cdrom class 
+
+2001-05-10  Adrian   <adrian@lisas.de>
+
+        * ChangeLog: Do I really like this changelog style?
+          If I do like it, why am I not using it?
+
+
+2001-05-07    <adrian@lisas.de>
+
+        * configure.in: check for good CDs included
+        
+2001-01-22  Adrian   <adrian@lisas.de>
+
+        * main.cpp: great new command line option
+        * cddb_fill.cpp: have a look at the cddb code from grip...
+          you will find similarities :)
+          the threading (currently disabled) is mainly from terminatorX
+        * PreferencesDialog.cpp: cdrom and cddb page added
+
+2001-01-11  Adrian  <adrian@lisas.de>
+
+        * ported to KDE 2.0 an qt 2.2
+        * KoverTop.cpp: rewritten
+          - using KDE 2 style menus and XML file (koverui.rc)
+        * cddb_fill.cpp: rewritten (partly)
+          changed cddb lookup to use port 80 instead of 888 (or whatever)
+        * cddb_fill.cpp: first looking for local cddb data before connecting
+          to a cddb server
+        * PreferencesDialog.cpp: new file creating a Preferences Dialog
+        * changed ChangeLog to GNU style
+
+Kover ChangeLog
+================
+* Bugfix
++ New Feature
+
+0.4
+  *inner lines are white if background is black
+  *title on the side gets same color as front title
+  +title can have several lines
+  +you can have three images with lots of configuration
+
+0.31
+  *use KTopLevelImage instead of KTMainWindow (comapatible with KDE 1.0)
+  *include ucdrom.h and/or cdrom.h depending on configure script
+  *clipped centered image
+  +support jpeg, tiff, png
+
+0.30
+  *corrected cd number load/save
+  *cd number is now on both sides
+  *found out why QPrinter prints only standard X fonts: Ghostscript has its own fontmap (/etc/gs.Fontmap)
+  *fixed exit/autochange bug
+  *replaces every %number in the filename
+  +autofilling with CDDB data
+  +image embedding (center/tile/stretch)
+  +added a status bar for more feedback on actions (essential for CDDB)
+  +added support for files of "Easy CD Pro 2.0" (autodetection!)
+
+0.20
+  *corrected the lsm file
+  *changed e-mail address to dok@fischlustig.de
+  *don´t ask for filename every time (save/save as)
+  *store applink in Utilities
+  +"Choose Font" moved into second toolbar
+  +color settings for text/background
+  +optional cd number
+  +use KSimpleConfig
+  +change detection (load/new/exit)
+
+0.10
+  +initial version
+  +save/load
+  +print
+  +preview
+  +font settings
+
+

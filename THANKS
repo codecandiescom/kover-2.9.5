@@ -1,0 +1,56 @@
+$Id: THANKS,v 1.9 2003/03/11 22:52:38 adrian Exp $
+
+kover THANKS:
+
+Using code and ideas from:
+
+- terminatorX http://www.terminatorX.cx/
+- grip http://www.nostatic.org/grip/
+- kmail and kedit (see www.kde.org)
+- base64 encoding by unknown
+- k3b/kostore
+
+Alexander Koenig <alex@lisas.de>
+- gcc 3 patches
+- kde 3 patches
+
+Jean-Pierre VERRUE <jean-pierre.verrue@laposte.net>
+- french translation
+
+Håvard Dahle <havardda-i18n@orakel.ntnu.no>
+- norwegian translation
+- inlet only option
+
+Michael <konqueror@gmx.de>
+- moc files now as include in the C++ file:
+
+Header files declaring a QObject descendant have to be run through moc to
+produce a .moc file.  This .moc file has to be compiled, for which two
+possibilities exists: compile it separately, or #include it in the C++ file
+implementing that above mentioned class.  The latter is more efficient in term
+of compilation speed.
+
+- some typos fixed. --enable-final should work now
+- included a mime-type application/x-kover
+- now using the KURL object to open and save files.
+  it is now possible to save and open files via ftp...
+
+Denis Oliver Kropp <dok@fischlustig.de>
+- for the original version of kover
+
+Marco Ciampa <ciampix@libero.it>
+- italian translation
+
+Micha Rudolf <mrudolf@mercury.ci.uw.edu.pl>
+- polish translation
+
+Rene Engelhard <mail@rene-engelhard.de>
+- debian package
+- man pages
+
+Nils Philippsen <nils@fht-esslingen.de>
+- php code for the wepages taken from
+  RACE: http://lisas.de/race/
+
+Quique <quique@sindominio.net>
+- spanish translation
